@@ -1,0 +1,14 @@
+.cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  gap: 10px;
+}
+.cast-item {
+  display: flex;
+  flex-direction: column;
+}
+.cast-img {
+  width: 200px;
+}

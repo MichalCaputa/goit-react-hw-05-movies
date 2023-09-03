@@ -1,16 +1,10 @@
-export const App = () => {
+import { Layout } from './Layout/Layout';
+import { AppRoutes } from './AppRoutes/AppRoutes';
+
+export const FilmApp = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Layout>
+      <AppRoutes />
+    </Layout>
   );
 };

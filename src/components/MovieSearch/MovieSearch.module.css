@@ -1,0 +1,22 @@
+.item-list {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 5px;
+}
+.item {
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid rgba(99, 91, 91, 0.593);
+  border-radius: 8px;
+  background-color: rgba(99, 91, 91, 0.593);
+}
+.item-img {
+  width: 150px;
+  border-radius: 8px;
+}
